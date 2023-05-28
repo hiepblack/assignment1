@@ -1,0 +1,17 @@
+<h2>Add Product</h2>
+
+<form (ngSubmit)="onSubmit()">
+  <input
+    type="text"
+    placeholder="Name Product"
+    [(ngModel)]="product.name"
+    name="name"
+  />
+  <input
+    type="number"
+    placeholder="Price Product"
+    [(ngModel)]="product.price"
+    name="price"
+  />
+  <button type="submit">Them sp</button>
+</form>

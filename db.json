@@ -1,0 +1,10 @@
+{
+  "product": [
+    {
+      "name": "san pham 1 update",
+      "price": 100,
+      "completed": true,
+      "id": 1
+    }
+  ]
+}

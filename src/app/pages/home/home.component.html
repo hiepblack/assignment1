@@ -1,0 +1,8 @@
+<p>List product</p>
+<ul *ngFor="let product of products" class="list-group">
+  <li class="list-group-item mt-2">{{ product.name }}: {{ product.price }}</li>
+  <li (click)="handleRemove(product.id)">Xoa</li>
+  <li>
+    <a  routerLink='update/{{ product.id}}'>Sửa</a>
+  </li>
+</ul>
